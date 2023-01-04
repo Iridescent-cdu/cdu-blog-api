@@ -13,12 +13,12 @@ import service.STSTokenService;
 public class STSTokenServiceImpl implements STSTokenService {
     public STSToken getSTSToken() {
         // STS接入地址，例如sts.cn-hangzhou.aliyuncs.com。
-        String endpoint = "sts.cn-chengdu.aliyuncs.com";
+        String endpoint = "";
         // 填写步骤1生成的RAM用户访问密钥AccessKey ID和AccessKey Secret。
-        String AccessKeyId = "LTAI5tParhtV5BX55oDWktMr";
-        String AccessKeySecret = "eqywbmhtdJv9djDjXoKgHPkCxVMfX2";
+        String AccessKeyId = "";
+        String AccessKeySecret = "";
         // 填写步骤3获取的角色ARN。
-        String roleArn = "acs:ram::1285671690456705:role/iridescent";
+        String roleArn = "";
         // 自定义角色会话名称，用来区分不同的令牌，例如可填写为SessionTest。
         String roleSessionName = "cdu-blog-api";
         // 以下Policy用于限制仅允许使用临时访问凭证向目标存储空间examplebucket上传文件。
