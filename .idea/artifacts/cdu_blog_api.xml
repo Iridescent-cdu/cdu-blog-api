@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cdu-blog-api">
+    <output-path>$PROJECT_DIR$/out/artifacts/cdu_blog_api</output-path>
+    <root id="root">
+      <element id="module-source" name="cdu-blog-api" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cdu-blog-api" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ini4j-0.5.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jettison-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jdom2-2.0.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpcore-4.4.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jaxb-api-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/stax-api-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/httpclient-4.4.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.30.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-sdk-oss-3.15.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/opentracing-api-0.33.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/opentracing-noop-0.33.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/opentracing-util-0.33.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-ram-3.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-kms-2.11.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.activation-api-1.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-core-4.5.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.30.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/org.jacoco.agent-0.8.5-runtime.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
